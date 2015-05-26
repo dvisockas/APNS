@@ -33,6 +33,14 @@ After you have your .pem file. Set what host, port, certificate file location on
   </code>
 </pre>
 
+If your .pem file needs passphrase to be used, you can set it as:
+
+<pre>
+  <code>
+    APNS.pass = 'your_passphrase'
+  </code>
+</pre> 
+
 h2. Example (Single notification):
 
 Then to send a push notification you can either just send a string as the alert or give it a hash for the alert, badge and sound.
